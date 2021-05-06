@@ -1,0 +1,40 @@
+body {
+    font-family: cursive;
+}
+
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 42px;
+}
+
+h1 span {
+    color: #FBD601;
+}
+.mainSection {
+    display: flex;
+    justify-content: center;
+    margin: 40px 60px;
+}
+
+.mainSection input {
+    margin-right: 20px;
+}
+
+#image {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#blurImg {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur( px);
+}

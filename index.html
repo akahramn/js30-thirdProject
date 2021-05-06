@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javaScript</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div>
+    <!-- Başlık bölümü -->
+    <div>
+        <h1>Update CSS Variables with <span >\bJS</span> </h1>
+    </div>
+    <!-- Ana bölüm -->
+    <div class="mainSection">
+        <!-- Spacing Özelliği -->
+        <label for="spacing">Spacing: </label>
+        <input type="range"  id="spacing" min="0" max="100" value="10" data-sizing="px">
+        <!-- Blur Özelliği -->
+        <label for="blur">Blur: </label>
+        <input type="range" id="blur" min="0" max="10" value="5" data-sizing="px">
+        <!-- Color Özelliği -->
+        <label for="color">Base Color: </label>
+        <input type="color" id="color" name="base" value="#ffc600">
+    </div>
+    <!-- image bölümü -->
+    <div id="image">
+        <img  id="blurImg" src="https://picsum.photos/720/480" alt="loremPicsum">
+    </div>
+
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
